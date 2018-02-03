@@ -17,6 +17,9 @@
 		30DE5ADA2025764100F68C6F /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE5AD92025764100F68C6F /* GoalType.swift */; };
 		30DE5ADC20257BCE00F68C6F /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE5ADB20257BCE00F68C6F /* CreateGoalVC.swift */; };
 		30DE5ADE20257E3E00F68C6F /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE5ADD20257E3E00F68C6F /* UIViewControllerExt.swift */; };
+		30DE5AE0202582D300F68C6F /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE5ADF202582D300F68C6F /* FinishGoalVC.swift */; };
+		30DE5AE2202585E300F68C6F /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE5AE1202585E300F68C6F /* UIViewExt.swift */; };
+		30DE5AE4202588D300F68C6F /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DE5AE3202588D300F68C6F /* UIButtonExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		30DE5AD92025764100F68C6F /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		30DE5ADB20257BCE00F68C6F /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 		30DE5ADD20257E3E00F68C6F /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		30DE5ADF202582D300F68C6F /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
+		30DE5AE1202585E300F68C6F /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		30DE5AE3202588D300F68C6F /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 			children = (
 				30DE5ABF2024C38100F68C6F /* GoalsVC.swift */,
 				30DE5ADB20257BCE00F68C6F /* CreateGoalVC.swift */,
+				30DE5ADF202582D300F68C6F /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -107,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				30DE5ADD20257E3E00F68C6F /* UIViewControllerExt.swift */,
+				30DE5AE1202585E300F68C6F /* UIViewExt.swift */,
+				30DE5AE3202588D300F68C6F /* UIButtonExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -183,8 +192,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30DE5AE2202585E300F68C6F /* UIViewExt.swift in Sources */,
+				30DE5AE4202588D300F68C6F /* UIButtonExt.swift in Sources */,
 				30DE5AD82024CF1B00F68C6F /* GoalCell.swift in Sources */,
 				30DE5ADC20257BCE00F68C6F /* CreateGoalVC.swift in Sources */,
+				30DE5AE0202582D300F68C6F /* FinishGoalVC.swift in Sources */,
 				30DE5ADA2025764100F68C6F /* GoalType.swift in Sources */,
 				30DE5AC02024C38100F68C6F /* GoalsVC.swift in Sources */,
 				30DE5ABE2024C38100F68C6F /* AppDelegate.swift in Sources */,
