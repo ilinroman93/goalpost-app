@@ -12,7 +12,6 @@ extension UIView {
     func bindToKeyboard() {
         NotificationCenter.default.addObserver(self, selector: #selector(keyBoardWillChange(_:)), name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
         
-        
     }
     
     @objc func keyBoardWillChange(_ notification: NSNotification) {
